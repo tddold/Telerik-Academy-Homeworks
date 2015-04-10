@@ -1,0 +1,53 @@
+Java:
+ 
+Java is one of the most popular computer programming language. It is class-based and object-oriented. Java applications 
+are compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. 
+
+C# and Java
+Similarities: C# and Java are class-based and object-oriented.They are type-safe languages and in both of them all objects are references.
+Both languages have built-in garbage collection.
+
+Differences: Unlike C#, which will only run on Windows, Java runs of Windows, Lunix and other platforms. There are also differences in the 
+keywords - some of them are supported in C# but not in Java.
+
+C++: 
+
+C++ is a general-purpose programming language (designed by Bjarne Stroustrup), which has imperative, object-oriented and generic programming 
+features, while also providing the facilities for low-level memory manipulation.Many programming languages have been influenced by C++ - C#, Java.
+
+C# and C++
+Similarities: They both have objects.
+
+Differences: C++ supports multiple inheritance, C# does not. The syntax looks similar, but under the covers they are very different. 
+C++ is generally compiled to native code, C# is generally compiled to intermediate language bytecode.
+
+Python: 
+
+Python is high-level programming language, which was designed by Guido van Rossum. Its syntax allows programmers to express 
+concepts in fewer lines of code. Python interpreters are available for installation on many operating systems, allowing Python code 
+execution on a wide variety of systems.
+
+C# and Python
+Similarities: Both Python and C# are object-oriented.
+
+Differences: Python is better in readability, C# has more consistent syntax.
+
+Ruby: 
+
+Ruby is a dynamic, reflective, object-oriented and general-purpose programming language. It supports multiple programming paradigms, 
+including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management. It was designed by
+Yukihiro Matsumoto.
+
+C# and Ruby
+Similarities: Both Ruby and C# are object-oriented.
+
+Differences: Ruby is an interpreted language and C# is a compiled language.Unlike C#, Ruby has no debugging mode.
+Ruby manages its memery usage with the method of reference counting and C# follows generational garbage collection method.
+
+JavaScript: 
+
+JavaScript is a dynamic computer programming language. It is used in Web site development.JavaScript uses some of the same 
+ideas found in Java, the compiled object-oriented programming derived from C++.
+
+C# and JavaScript
+Differences: Javascript is a non-typed scripting language, which means it typically runs uncompiled in browsers. C# is a strongly-typed language.

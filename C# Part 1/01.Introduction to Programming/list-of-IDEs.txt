@@ -1,0 +1,26 @@
+Microsoft Visual Studio
+
+Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. 
+It is used to develop computer programs for Microsoft Windows, as well as web sites, web applications and web services. It supports different 
+programming languages and allows the code editor and debugger to support (to varying degrees) nearly any programming language, provided 
+a language-specific service exists.
+
+Eclipse
+
+Eclipse is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing 
+the environment. Written mostly in Java, Eclipse can be used to develop applications
+
+NetBeans
+
+NetBeans is an open-source IDE for developing primarily with Java. The NetBeans Platform allows applications to be developed from a set of modular 
+software components called modules. 
+
+Code::Blocks
+
+Code::Blocks is a free, open source cross-platform IDE which supports multiple compilers. It is being developed for Windows, Linux, and Mac OS X. 
+
+Xcode
+
+Xcode is an integrated development environment (IDE) containing a suite of software development tools developed by Apple 
+for developing software for OS X and iOS. Xcode also includes Apple's WebObjects tools and frameworks for building Java web applications 
+and web services
