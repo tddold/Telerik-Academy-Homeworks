@@ -5,47 +5,173 @@
         Registration Form - Problem 1
     </title>
     <style>
-        table
+        table 
         {
-            border:outset 2px;
+            border-collapse: collapse;
         }
-        td
-        {
-            border-collapse:collapse;
 
-        }
-        span
+        table, td, tr 
         {
-            font-size:medium;
-            font-weight:bold;
-            text-align:center;
+            border: 1px outset black;
         }
+
+            td.ColumnAling 
+            {
+                width: 150px;
+                text-align: center;
+                font-size: medium;
+                font-weight: bold;
+            }
+            td.BackgroundColor
+            {
+                background-color:skyblue;
+            }
+
+        textarea 
+        {
+            width: 225px;
+            height: 70px;
+        }
+            textarea.Height
+            {
+                height: 100px;
+            }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <span>
+    <form method="post" action="">
+        <table>
+            <tr>
+                <td class="ColumnAling">
                     First Name
-                </span>
-            </td>
-            <td>
-                <input type="text" />
-            </td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-    </table>
+                </td>
+                <td>
+                    <input type="text" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Last Name
+                </td>
+                <td>
+                    <input type="text" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Address
+                </td>
+                <td>
+                    <textarea name="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    City
+                </td>
+                <td>
+                    <input type="text" name="City" size="20" />
+                    State
+                    <input type="text" name="State" size="3" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Zip/Postal Code
+                </td>
+                <td>
+                    <input type="text" name="ZipCode" size="7" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Country
+                </td>
+                <td>
+                    <select name="Country">
+                        <option value="Bulgaria" selected="selected">
+                            Bulgaria
+                        </option>
+                        <option value="USA">
+                            USA
+                        </option>
+                        <option value="China">
+                            China
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Phone(country code, area code, number)
+                </td>
+                <td style="te">
+                    (+
+                    <input type="text" name="CountryCode" size="3" />
+                    )
+                    <input type="text" name="AreaCode" size="3" />
+                    <input type="text" name="Number" size="7" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    E-mail
+                </td>
+                <td>
+                    <input type="email" name="Email" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Birth date
+                </td>
+                <td>
+                    <input type="date" />
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Gender
+                </td>
+                <td>
+                    <select name="Gender">
+                        <option value="male" selected="selected">
+                            Male
+                        </option>
+                        <option value="female">
+                            Female
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Starting date
+                </td>
+                <td>
+                    <input type="radio" name="StartingDate" value="Spring 2015" /> Spring 2015
+                    <input type="radio" name="StartingDate" value="Summer 2015" /> Summer 2015
+                </td>
+            </tr>
+            <tr>
+                <td class="ColumnAling">
+                    Comments/Questions
+                </td>
+                <td>
+                    <textarea class="Height" name="Comments"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="BackgroundColor" colspan="2" align="center">
+                    <button type="submit" value="Submit">
+                        Submit
+                    </button>
+                    <button type="reset" name="ResetButton" value="Clean This Form">
+                        Clean This Form
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
