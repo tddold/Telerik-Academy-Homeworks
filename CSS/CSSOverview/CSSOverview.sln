@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PageSection", "PageSection\01.PageSection.csproj", "{54B92210-0CCB-4783-911F-85F77659C76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CountryWebPage", "CountryWebPage\02.CountryWebPage.csproj", "{C5F51AAF-AF9C-4EFD-A46C-FF49A99257B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WebPageDesign", "WebPageDesign\03.WebPageDesign.csproj", "{FD3C58F7-7721-4146-B690-0E96F78F4B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B92210-0CCB-4783-911F-85F77659C76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B92210-0CCB-4783-911F-85F77659C76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B92210-0CCB-4783-911F-85F77659C76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B92210-0CCB-4783-911F-85F77659C76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F51AAF-AF9C-4EFD-A46C-FF49A99257B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F51AAF-AF9C-4EFD-A46C-FF49A99257B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F51AAF-AF9C-4EFD-A46C-FF49A99257B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F51AAF-AF9C-4EFD-A46C-FF49A99257B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3C58F7-7721-4146-B690-0E96F78F4B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3C58F7-7721-4146-B690-0E96F78F4B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3C58F7-7721-4146-B690-0E96F78F4B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3C58F7-7721-4146-B690-0E96F78F4B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

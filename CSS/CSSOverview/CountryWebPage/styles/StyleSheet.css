@@ -1,0 +1,69 @@
+﻿table{
+    border-collapse: collapse;
+    border: 2px solid #969191;
+    text-align: center;
+    font-size: 14px;
+}
+
+table td{
+    padding-left: 10px;
+    font-family: Verdana;
+    text-align: left;
+    border-right: 1px solid #C1BFA4;
+}
+
+#HeaderFormating{
+    color: #FFFFFF;
+    background: linear-gradient(#5EC306, #43A401)
+}
+
+#ContactNameField{
+    width: 180px;
+    height: 25px;
+    border: 2px outset;
+    border-bottom-color: #32771B;
+    border-left-color: #32771B;
+    border-right-color: #6FC12F;
+    border-top-color: #6FC12F;
+}
+
+#CityField{
+    width: 120px;
+    border: 2px outset;
+    border-bottom-color: #32771B;
+    border-left-color: #32771B;
+    border-right-color: #6FC12F;
+    border-top-color: #6FC12F;
+}
+
+#CountryField{
+    width: 150px;
+    border: 2px outset;
+    border-bottom-color: #32771B;
+    border-left-color: #32771B;
+    border-right-color: #6FC12F;
+    border-top-color: #6FC12F;
+}
+
+#IsPromoted{
+    width: 100px;
+    border: 2px outset;
+    border-bottom-color: #32771B;
+    border-left-color: #32771B;
+    border-right-color: #6FC12F;
+    border-top-color: #6FC12F;
+}
+
+#CheckBox{
+    padding-left: 10px;
+}
+
+.ImageSize{
+    vertical-align:bottom;
+    width: 20px;
+    height: 20px;
+}
+
+tr:nth-child(2n+1){
+    background-color: #ECECD8;
+}

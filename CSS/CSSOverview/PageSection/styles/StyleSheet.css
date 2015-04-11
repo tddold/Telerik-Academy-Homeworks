@@ -1,0 +1,43 @@
+﻿table{
+    background-color: #595959;
+    font-family: Calibri;
+    text-align: left;
+}
+
+#TickedID{
+    color: #ADB6B0;
+    font-size: 20px;
+}
+
+.FieldsName{
+    color: #FFFFFF;
+    font-style: italic;
+    width: 125px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+
+.textColor{
+    color: #E6DD8B;
+    font-weight: bold;
+}
+
+#RedText{
+    color: red;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 5px;
+}
+
+.grayText{
+    color: #BCBCB8;
+    font-weight: bold;
+}
+
+#orangeColor{
+    color: #CE6B20;
+    font-weight: bold;
+}
