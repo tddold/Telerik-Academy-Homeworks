@@ -1,0 +1,14 @@
+﻿#TitleHeader{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #8A008A;
+}
+
+#Circle{
+    list-style-type: circle;
+}
+
+h1{
+    font-size: 25px;
+}
